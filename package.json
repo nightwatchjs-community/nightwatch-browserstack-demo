@@ -1,0 +1,17 @@
+{
+  "name": "nightwatch-feedback-loop",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "nightwatch"
+  },
+  "keywords": [],
+  "author": "Andrei Rusu <andrei@pineview.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "chromedriver": "^91.0.1",
+    "fs-extra": "^10.0.0",
+    "geckodriver": "^2.0.1",
+    "nightwatch": "^1.7.7"
+  }
+}
