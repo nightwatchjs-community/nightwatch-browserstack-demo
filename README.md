@@ -2,6 +2,9 @@
 
 This project runs an end-to-end test which runs another demo test using the [Browserstack](https://browserstack.com) cloud testing service. It then verifies if the second test appears in the Browserstack dashboard. Both the main test and the test-within-the-test are run using [Nightwatch.js](https://nightwatchjs.org).
 
+## Overview
+The test performs a login against the browserstack.com service, saves the cookies needed to maintain the session state for subsequent test runs, starts the second Nightwatch test inside a child process, and then simply asserts if the second test was found in the list, in  the Browserstack dashboard.
+
 ## Setup
 
 You need to create an account with Browserstack. You can create one with a free plan, which includes 100 minutes. Only login with email and password is supported.
@@ -33,6 +36,12 @@ npm test -- --env fireofx
 
 #or
 npx nightwatch --env firefox
+```
+
+You can also run the main test on Browserstack:
+
+```sh
+npx nightwatch --env browserstack.chrome
 ```
 
 Enjoy!
