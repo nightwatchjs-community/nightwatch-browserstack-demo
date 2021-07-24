@@ -1,4 +1,4 @@
-# nightwatch-feedback-loops
+# Nightwatch Browserstack Demo
 
 This project runs a demo end-to-end which verifies if a Nightwatch test appears in the Browserstack dashboard. The test is ran also from Nightwatch.
 
