@@ -1,6 +1,6 @@
 # Nightwatch Browserstack Demo
 
-This project runs a demo end-to-end which verifies if a Nightwatch test appears in the Browserstack dashboard. The test is ran also from Nightwatch.
+This project runs an end-to-end test which runs another demo test using the [Browserstack](https://browserstack.com) cloud testing service. It then verifies if the second test appears in the Browserstack dashboard. Both the main test and the test-within-the-test are run using [Nightwatch.js](https://nightwatchjs.org).
 
 ## Setup
 
@@ -13,7 +13,7 @@ After you create the account, you need to configure the following environment va
 export BROWSERSTACK_LOGIN=""
 export BROWSERSTACK_PASSWORD=""
 
-# your username and access key which you can find in your Automate Dashboard on the Browserstack website, after you log in
+# your username and access key which you can find in your Automate Dashboard on the Browserstack website
 export BROWSERSTACK_KEY=""
 export BROWSERSTACK_USER=""
 ```
