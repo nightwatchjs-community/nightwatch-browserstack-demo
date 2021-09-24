@@ -6,12 +6,12 @@
     "test": "nightwatch"
   },
   "keywords": [],
-  "author": "Andrei Rusu <andrei@pineview.io>",
+  "author": "Andrei Rusu",
   "license": "MIT",
   "devDependencies": {
-    "chromedriver": "^91.0.1",
+    "chromedriver": "^93.0.1",
     "fs-extra": "^10.0.0",
-    "geckodriver": "^2.0.1",
-    "nightwatch": "^1.7.7"
+    "geckodriver": "^2.0.4",
+    "nightwatch": "^1.7.11"
   }
 }
