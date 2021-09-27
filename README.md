@@ -44,4 +44,7 @@ You can also run the main test on Browserstack:
 npx nightwatch --env browserstack.chrome
 ```
 
+### Persisting login information
+The [loginIfNeeded](https://github.com/nightwatchjs/nightwatch-browserstack-demo/blob/main/lib/custom-commands/loginIfNeeded.js) custom command grabs the session cookies after a succesful login and saves them in a local file called `cookies.json` which contents will use for subsequent logins.
+
 Enjoy!
