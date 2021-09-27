@@ -1,4 +1,4 @@
-# Nightwatch Browserstack Demo
+# Nightwatch.js Browserstack Demo
 
 This project runs an end-to-end test which runs another demo test using the [Browserstack](https://browserstack.com) cloud testing service. It then verifies if the second test appears in the Browserstack dashboard. Both the main test and the test-within-the-test are run using [Nightwatch.js](https://nightwatchjs.org).
 
